@@ -37,9 +37,10 @@ evidence without reading a long autobiography.
 - Avoid fixed backgrounds and text colors so GitHub light and dark themes both work.
 - Respect `prefers-reduced-motion` inside the SVG and keep professional information
   available as real README text rather than embedding it only in an image.
-- Present AI development tools in a four-column semantic table. Use official,
-  repository-owned logo assets at a consistent visual size and pair every logo with a
-  visible product name and descriptive alternative text.
+- Present AI development tools in one centered, borderless icon row. Place each
+  official logo on a standardized dark rounded tile at the same displayed size and
+  spacing used by the other technology icon rows. Keep every tile linked and provide
+  a descriptive alternative text instead of a visible product label.
 
 ## ADR-001: Featured Project Ranking
 
@@ -120,9 +121,11 @@ library, and substituting generic AI symbols would make the tools harder to reco
 
 Use the official Claude mark and the product icons distributed with the locally
 installed official Codex, Antigravity, and Kiro applications. Preserve their original
-colors and aspect ratios, and store optimized copies in the profile repository.
+colors and aspect ratios, store optimized copies in the profile repository, and place
+presentation copies on a shared dark rounded-tile canvas.
 
 ### Brand Asset Consequences
 
 The four tools have accurate, stable visual identities without runtime dependence on
-an icon CDN. Repository size increases slightly due to three optimized PNG assets.
+an icon CDN. The shared canvas makes icons from different vendors feel consistent
+with the technology stack while leaving the source brand assets unchanged.

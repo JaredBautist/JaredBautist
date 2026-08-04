@@ -36,8 +36,9 @@ professional impact.
 12. WHEN profile content is displayed, all professional copy SHALL be written in
     English.
 13. WHEN AI development tools are displayed, the profile SHALL show recognizable
-    logos and visible labels for Claude Code, Codex, Antigravity, and Kiro, with each
-    item linking to its official product page.
+    logos for Claude Code, Codex, Antigravity, and Kiro in one centered icon row that
+    matches the visual rhythm of the technology stack, with each logo linking to its
+    official product page and exposing a descriptive accessible name.
 
 ## Out of Scope
 
