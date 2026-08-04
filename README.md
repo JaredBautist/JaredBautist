@@ -61,13 +61,13 @@ engineering problem.
 <h3 align="center">Backend & APIs</h3>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring,java,py,cs,dotnet&perline=8" alt="Node.js, Express, NestJS, Spring, Java, Python, C Sharp, and .NET" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,py&perline=4" alt="Node.js, Express, NestJS, and Python" />
 </div>
 
 <h3 align="center">Data, Cloud & Delivery</h3>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,docker,azure,aws,nginx,linux,git,githubactions&perline=11" alt="PostgreSQL, MySQL, MongoDB, Firebase, Docker, Azure, AWS, Nginx, Linux, Git, and GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,nginx,linux,git,githubactions&perline=8" alt="PostgreSQL, MySQL, MongoDB, Docker, Nginx, Linux, Git, and GitHub Actions" />
 </div>
 
 <h3 align="center">Architecture, Quality & AI</h3>
