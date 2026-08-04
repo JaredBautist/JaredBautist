@@ -14,4 +14,4 @@
 - [x] Add the linked four-column AI development tools section.
 - [x] Validate the public render and push the AI logo update.
 - [x] Standardize the AI tool logos as centered technology-style icon tiles.
-- [ ] Remove the bordered AI tools table and validate the public GitHub render.
+- [x] Remove the bordered AI tools table and validate the public GitHub render.
