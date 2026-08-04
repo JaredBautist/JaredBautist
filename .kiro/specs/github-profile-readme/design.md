@@ -5,12 +5,13 @@
 The README uses a content-first portfolio structure:
 
 1. Identity and positioning
-2. Short professional summary
-3. Grouped technology stack
-4. Ranked featured projects
-5. Selected professional impact and achievement
-6. Current learning focus
-7. GitHub activity and contact
+2. Professional details table
+3. Short professional summary
+4. Grouped technology stack
+5. Ranked featured projects
+6. Selected professional impact and achievement
+7. Current learning focus
+8. GitHub activity and contact
 
 The ordering lets a recruiter understand the profile quickly, then inspect concrete
 evidence without reading a long autobiography.
@@ -26,10 +27,16 @@ evidence without reading a long autobiography.
 ## Presentation Decisions
 
 - Use native Markdown and small amounts of GitHub-supported HTML for alignment.
+- Use one repository-owned SVG hero with a deep navy palette, high-contrast text,
+  and restrained motion.
 - Use shields only for compact status and technology labels.
+- Group technology icons into frontend, backend, data/cloud, and engineering
+  categories to mirror the supplied reference without copying it.
 - Keep paragraphs short and project descriptions evidence-led.
 - Provide descriptive alternative text for dynamic activity images.
 - Avoid fixed backgrounds and text colors so GitHub light and dark themes both work.
+- Respect `prefers-reduced-motion` inside the SVG and keep professional information
+  available as real README text rather than embedding it only in an image.
 
 ## ADR-001: Featured Project Ranking
 
@@ -71,3 +78,30 @@ the exact public destinations.
 
 There are no dead links or accidental disclosures, but the initial profile has one
 contact channel.
+
+## ADR-003: Animated Header Asset
+
+### Animation Context
+
+The supplied reference uses a dark, visual hero, and Jared requested animation. GitHub
+READMEs cannot run arbitrary JavaScript, so the motion must be image-based.
+
+### Animation Options Considered
+
+1. Animated GIF: broadly compatible, but heavy, rasterized, and inaccessible to
+   reduced-motion preferences.
+2. Third-party typing SVG: quick to embed, but adds a runtime dependency and produces
+   a familiar template look.
+3. Repository-owned SVG: lightweight, scalable, customizable, and able to include a
+   reduced-motion media query.
+
+### Animation Decision
+
+Use one repository-owned SVG banner. Animate only the initial title treatment, accent
+line, and ambient wave geometry; keep the motion subtle and non-essential.
+
+### Animation Consequences
+
+The profile gains a distinctive visual identity without relying on a third-party
+animation service. The same banner remains readable if SVG animation is unavailable
+or reduced motion is enabled.

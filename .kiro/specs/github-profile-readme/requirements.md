@@ -26,6 +26,15 @@ professional impact.
    unknown LinkedIn and email values SHALL not appear as broken placeholders.
 8. WHEN the change is complete, the repository SHALL be public, named exactly
    `JaredBautist/JaredBautist`, and the README SHALL be pushed to its default branch.
+9. WHEN the profile header loads, it SHALL present Jared's name and engineering
+   positioning with subtle animation inspired by the supplied dark portfolio
+   reference.
+10. WHEN a visitor prefers reduced motion, the animated header SHALL render as a
+    stable composition without continuous movement.
+11. WHEN professional details are displayed, the profile SHALL state Spanish as
+    Jared's native language and English proficiency as C1.
+12. WHEN profile content is displayed, all professional copy SHALL be written in
+    English.
 
 ## Out of Scope
 
@@ -33,3 +42,5 @@ professional impact.
 - Publishing private contact information.
 - Claiming production readiness where a repository describes itself as a prototype.
 - Pinning repositories through GitHub account settings.
+- Inventing education credentials or additional language proficiency not supplied
+  by Jared.

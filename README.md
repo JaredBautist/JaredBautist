@@ -1,47 +1,87 @@
 <div align="center">
 
-# Jared Bautista
+<img src="./assets/header.svg" width="100%" alt="Jared Bautista — Full-Stack Software Engineer focused on backend, cloud, AI, clean architecture, and specification-driven development" />
 
-### Full-Stack Software Engineer · Backend · Cloud · AI
-
-I build reliable software for real operational problems, from data modeling and
-backend architecture to responsive interfaces and cloud delivery.
-
-[![Location](https://img.shields.io/badge/Colombia-18181B?style=flat-square&logo=googlemaps&logoColor=white)](https://github.com/JaredBautist)
+[![Location](https://img.shields.io/badge/Colombia-0F172A?style=flat-square&logo=googlemaps&logoColor=38BDF8)](https://github.com/JaredBautist)
+[![English](https://img.shields.io/badge/English-C1-0F172A?style=flat-square&logo=googledocs&logoColor=22C55E)](#professional-profile)
 [![GitHub](https://img.shields.io/badge/GitHub-JaredBautist-2563EB?style=flat-square&logo=github&logoColor=white)](https://github.com/JaredBautist)
 [![Open to collaboration](https://img.shields.io/badge/Open_to-collaboration-16A34A?style=flat-square)](https://github.com/JaredBautist?tab=repositories)
 
 </div>
 
+## Professional profile
+
+<table>
+  <tbody>
+    <tr>
+      <th scope="row">Name</th>
+      <td>Jared Bautista (<a href="https://github.com/JaredBautist">@JaredBautist</a>)</td>
+    </tr>
+    <tr>
+      <th scope="row">Role</th>
+      <td>Full-Stack Software Engineer · Backend · Cloud · AI</td>
+    </tr>
+    <tr>
+      <th scope="row">Location</th>
+      <td>Colombia</td>
+    </tr>
+    <tr>
+      <th scope="row">Languages</th>
+      <td>Spanish — Native · English — C1</td>
+    </tr>
+    <tr>
+      <th scope="row">Focus</th>
+      <td><em>Building reliable software for real operational problems with clean architecture, explicit contracts, and measurable business value.</em></td>
+    </tr>
+  </tbody>
+</table>
+
 ## About me
 
-I'm a full-stack engineer based in Colombia who enjoys owning features end to end:
-defining the contract, designing the database, implementing the backend, building the
-frontend, and delivering the result. My work and projects span healthcare automation,
+I'm a full-stack engineer who enjoys owning features end to end: defining the
+contract, designing the database, implementing the backend, building the frontend,
+and delivering the result. My work and projects span healthcare automation,
 enterprise management platforms, cloud infrastructure, data engineering, and
 AI-assisted developer tooling.
 
-I care about **clean architecture**, explicit contracts, automated testing, and
-software that remains understandable after the first release. One of my proudest
-achievements is finishing **Top 2 in the PrimeWorks AI Engineering Technical
-Challenge**, where I applied Specification-Driven Development and modern AI workflows
-to a production-oriented engineering problem.
+I care about **clean architecture**, automated testing, and software that remains
+understandable after the first release. One of my proudest achievements is finishing
+**Top 2 in the PrimeWorks AI Engineering Technical Challenge**, where I applied
+Specification-Driven Development and modern AI workflows to a production-oriented
+engineering problem.
 
 ## Technology stack
 
+<h3 align="center">Frontend</h3>
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,java,py,cs,react,nextjs,vite,tailwind,nodejs,express,nestjs,spring,postgres,mysql,mongodb,firebase,docker,azure,aws,nginx,linux,git,githubactions&perline=12" alt="TypeScript, JavaScript, Java, Python, C Sharp, React, Next.js, Vite, Tailwind CSS, Node.js, Express, NestJS, Spring, PostgreSQL, MySQL, MongoDB, Firebase, Docker, Azure, AWS, Nginx, Linux, Git, and GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,html,css,bootstrap,materialui&perline=10" alt="TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, HTML, CSS, Bootstrap, and Material UI" />
 </div>
 
-| Area | Technologies and practices |
-| --- | --- |
-| **Frontend** | React, Next.js, Vite, Tailwind CSS, Bootstrap, Material UI |
-| **Backend & APIs** | Node.js, Express, NestJS, Spring Boot, REST, JWT, OAuth, WebSockets |
-| **Data** | PostgreSQL, SQL Server, MySQL, MongoDB, Firebase, SQL optimization |
-| **Cloud & delivery** | Docker, GitHub Actions, Azure, AWS, DigitalOcean, Nginx, Linux |
-| **Architecture** | Clean Architecture, SOLID, DDD, Repository Pattern, Dependency Injection, Microservices, SDD |
-| **Quality** | Jest, JUnit, unit testing, integration testing, contract-first development |
-| **AI engineering** | OpenAI APIs, MCP tools, Codex, Claude, Copilot, AI-assisted development |
+<h3 align="center">Backend & APIs</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring,java,py,cs,dotnet&perline=8" alt="Node.js, Express, NestJS, Spring, Java, Python, C Sharp, and .NET" />
+</div>
+
+<h3 align="center">Data, Cloud & Delivery</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,docker,azure,aws,nginx,linux,git,githubactions&perline=11" alt="PostgreSQL, MySQL, MongoDB, Firebase, Docker, Azure, AWS, Nginx, Linux, Git, and GitHub Actions" />
+</div>
+
+<h3 align="center">Architecture, Quality & AI</h3>
+
+<div align="center">
+
+![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-0F172A?style=flat-square&logo=blueprint&logoColor=38BDF8)
+![SOLID](https://img.shields.io/badge/SOLID-0F172A?style=flat-square&logo=codacy&logoColor=22C55E)
+![Domain-Driven Design](https://img.shields.io/badge/Domain--Driven_Design-0F172A?style=flat-square&logo=databricks&logoColor=38BDF8)
+![Specification-Driven Development](https://img.shields.io/badge/Specification--Driven_Development-0F172A?style=flat-square&logo=readthedocs&logoColor=22C55E)
+![Testing](https://img.shields.io/badge/Unit_&_Integration_Testing-0F172A?style=flat-square&logo=jest&logoColor=38BDF8)
+![MCP](https://img.shields.io/badge/MCP_&_AI_Engineering-0F172A?style=flat-square&logo=openai&logoColor=22C55E)
+
+</div>
 
 ## Featured projects
 

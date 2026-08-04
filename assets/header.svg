@@ -1,0 +1,176 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="280"
+  viewBox="0 0 1200 280"
+  role="img"
+  aria-labelledby="banner-title banner-description"
+>
+  <title id="banner-title">Jared Bautista, Full-Stack Software Engineer</title>
+  <desc id="banner-description">
+    Dark animated portfolio banner with subtle blue and green ambient waves.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="0.55" stop-color="#111827" />
+      <stop offset="1" stop-color="#0b1120" />
+    </linearGradient>
+    <radialGradient id="blue-glow" cx="0.18" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="green-glow" cx="0.84" cy="0.2" r="0.72">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="420" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#22c55e" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity="0.055" />
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="280" rx="18" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .title {
+      animation: enter 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .subtitle {
+      animation: enter 900ms 160ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .detail {
+      animation: enter 900ms 300ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .accent-line {
+      stroke-dasharray: 360;
+      stroke-dashoffset: 360;
+      animation: draw 1200ms 360ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .wave-front {
+      animation: wave-shift 5s ease-in-out 2 alternate both;
+    }
+    .wave-back {
+      animation: wave-shift 6s 120ms ease-in-out 2 alternate-reverse both;
+    }
+    .glow {
+      animation: glow-in 1800ms ease-out both;
+    }
+    @keyframes enter {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes draw {
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes wave-shift {
+      from { transform: translateX(-18px); }
+      to { transform: translateX(18px); }
+    }
+    @keyframes glow-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .title,
+      .subtitle,
+      .detail,
+      .accent-line,
+      .wave-front,
+      .wave-back,
+      .glow {
+        animation: none;
+        opacity: 1;
+        stroke-dashoffset: 0;
+        transform: none;
+      }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="280" fill="url(#background)" />
+    <rect width="1200" height="280" fill="url(#grid)" />
+    <rect class="glow" width="1200" height="280" fill="url(#blue-glow)" />
+    <rect class="glow" width="1200" height="280" fill="url(#green-glow)" />
+
+    <text
+      x="44"
+      y="50"
+      fill="#7dd3fc"
+      font-family="Inter, Segoe UI, sans-serif"
+      font-size="16"
+      font-weight="700"
+      letter-spacing="2.4"
+    >PORTFOLIO / README.md</text>
+    <text
+      x="1154"
+      y="50"
+      fill="#86efac"
+      font-family="Inter, Segoe UI, sans-serif"
+      font-size="15"
+      font-weight="700"
+      text-anchor="end"
+      letter-spacing="1.8"
+    >COLOMBIA</text>
+
+    <text
+      class="title"
+      x="600"
+      y="126"
+      fill="#f8fafc"
+      font-family="Inter, Segoe UI, sans-serif"
+      font-size="48"
+      font-weight="750"
+      text-anchor="middle"
+      letter-spacing="-1.2"
+    >Hi, I'm Jared Bautista</text>
+    <text
+      class="subtitle"
+      x="600"
+      y="166"
+      fill="#cbd5e1"
+      font-family="Inter, Segoe UI, sans-serif"
+      font-size="21"
+      font-weight="500"
+      text-anchor="middle"
+    >Full-Stack Software Engineer · Backend · Cloud · AI</text>
+    <path
+      class="accent-line"
+      d="M420 188H780"
+      fill="none"
+      stroke="url(#accent)"
+      stroke-linecap="round"
+      stroke-width="3"
+    />
+    <text
+      class="detail"
+      x="600"
+      y="220"
+      fill="#94a3b8"
+      font-family="Inter, Segoe UI, sans-serif"
+      font-size="16"
+      font-weight="500"
+      text-anchor="middle"
+      letter-spacing="0.6"
+    >Clean Architecture · Specification-Driven Development · Reliable Systems</text>
+
+    <path
+      class="wave-back"
+      d="M-40 236C150 206 315 277 514 248C737 216 890 210 1240 253V300H-40Z"
+      fill="#1e293b"
+      fill-opacity="0.76"
+    />
+    <path
+      class="wave-front"
+      d="M-40 254C190 218 335 290 580 258C828 226 1006 271 1240 239V300H-40Z"
+      fill="#0b1120"
+      fill-opacity="0.94"
+    />
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="278.5" rx="17.25" fill="none" stroke="#334155" stroke-width="1.5" />
+</svg>
