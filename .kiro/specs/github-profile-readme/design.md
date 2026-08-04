@@ -37,6 +37,9 @@ evidence without reading a long autobiography.
 - Avoid fixed backgrounds and text colors so GitHub light and dark themes both work.
 - Respect `prefers-reduced-motion` inside the SVG and keep professional information
   available as real README text rather than embedding it only in an image.
+- Present AI development tools in a four-column semantic table. Use official,
+  repository-owned logo assets at a consistent visual size and pair every logo with a
+  visible product name and descriptive alternative text.
 
 ## ADR-001: Featured Project Ranking
 
@@ -105,3 +108,21 @@ line, and ambient wave geometry; keep the motion subtle and non-essential.
 The profile gains a distinctive visual identity without relying on a third-party
 animation service. The same banner remains readable if SVG animation is unavailable
 or reduced motion is enabled.
+
+## ADR-004: AI Tool Brand Assets
+
+### Brand Asset Context
+
+Claude Code, Codex, Antigravity, and Kiro do not all exist in the same public icon
+library, and substituting generic AI symbols would make the tools harder to recognize.
+
+### Brand Asset Decision
+
+Use the official Claude mark and the product icons distributed with the locally
+installed official Codex, Antigravity, and Kiro applications. Preserve their original
+colors and aspect ratios, and store optimized copies in the profile repository.
+
+### Brand Asset Consequences
+
+The four tools have accurate, stable visual identities without runtime dependence on
+an icon CDN. Repository size increases slightly due to three optimized PNG assets.

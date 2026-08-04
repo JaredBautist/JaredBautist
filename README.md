@@ -83,6 +83,39 @@ engineering problem.
 
 </div>
 
+<h3 align="center">AI Development Tools</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://www.anthropic.com/product/claude-code">
+          <img src="./assets/ai-tools/claude.svg" width="64" height="64" alt="Claude Code logo" /><br />
+          <strong>Claude Code</strong>
+        </a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://openai.com/codex/">
+          <img src="./assets/ai-tools/codex.png" width="64" height="64" alt="Codex logo" /><br />
+          <strong>Codex</strong>
+        </a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://antigravity.google/">
+          <img src="./assets/ai-tools/antigravity.png" width="64" height="64" alt="Antigravity logo" /><br />
+          <strong>Antigravity</strong>
+        </a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://kiro.dev/ide/">
+          <img src="./assets/ai-tools/kiro.png" width="64" height="64" alt="Kiro logo" /><br />
+          <strong>Kiro</strong>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Featured projects
 
 ### 1. [AXOLOT](https://github.com/JaredBautist/AXOLOT)

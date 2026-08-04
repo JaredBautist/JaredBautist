@@ -35,6 +35,9 @@ professional impact.
     Jared's native language and English proficiency as C1.
 12. WHEN profile content is displayed, all professional copy SHALL be written in
     English.
+13. WHEN AI development tools are displayed, the profile SHALL show recognizable
+    logos and visible labels for Claude Code, Codex, Antigravity, and Kiro, with each
+    item linking to its official product page.
 
 ## Out of Scope
 
